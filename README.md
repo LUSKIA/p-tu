@@ -1,41 +1,3 @@
-# p-tu const menu = [
-    {
-        id: 1,
-        category: 'Breakfast',
-        image: './images/item-1.jpeg',
-    },
-
-    {
-        id: 2,
-        category: 'Lunch',
-        image: './images/item-2.jpeg',
-    },
-
-    {
-        category: 'Shakes',
-        image: './images/item-3.jpeg',
-    },
-
-    {
-        id: 4,
-        category: 'Breakfast',
-        image: './images/item-4.jpeg',
-    },
-
-    {
-        id: 5,
-        category: 'Lunch',
-        image: './images/item-5.jpeg',
-    },
-
-    {
-        id: 6,
-        category: 'Shakes',
-        image: './images/item-6.jpeg',
-    },
-
-
-];
 let menuItems = document.querySelector('.menu-itens')
 let buttonContainer = document.querySelector('.button-container')
 
@@ -104,4 +66,3 @@ filterButton.forEach((button) => {
 });
 
 }
-''
