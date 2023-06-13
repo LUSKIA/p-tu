@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9fb;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+main header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2rem;
+}
+.title h2{
+    font-size: 4.8rem;
+    color: #3e2c0a;
+    
+}
+
+.button-container{
+    display: flex;
+    gap: 2.4rem;
+}
+.button-container button{
+
+    color: #3e2c0a;
+    border-style: solid;
+    text-transform: capitalize;
+    background: transparent;
+    font-size: 13pt;
+    border-radius: 1rem;
+    padding: 0.8rem 1.6rem;
+    cursor: pointer;
+}
+.button-container button:hover{
+
+}
+
+.menu-itens{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10rem;
+}
+.menu-itens p{
+    text-align: justify;
+}
+
+.item-image img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+.item-title{
+    display: flex;
+
+
+}
+.price{
+    font-weight: bold;
+}
+.item-description p{
+    color: #3e2c0a;
+    font-size: 1.8rem;
+}
+
+
+@media screen and (max-width:1050px) {
+    main{
+        grid-template-columns: 90%;
+    }
+    .menu-itens{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:775px) {
+    main{
+        grid-template-columns: 90%;
+    }
+    .menu-itens{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        max-width: 280px;
+    }
+}
